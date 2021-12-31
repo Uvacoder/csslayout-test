@@ -2,7 +2,7 @@ import * as React from 'react';
 import Head from 'next/head';
 import { Heading, Spacer } from '@1milligram/design';
 
-import { Ad } from '../components/Ad';
+//import { Ad } from '../components/Ad';
 import { Pattern } from '../constants/Pattern';
 import { slug } from '../utils/slug';
 import { Layout } from './Layout';
@@ -32,9 +32,7 @@ export const PatternLayout: React.FC<{
                     <Spacer size="extraLarge" />
                     <Heading level={1}>{pattern}</Heading>
                     <Spacer size="large" />
-                    <div className="block-ad">
-                        <Ad />
-                    </div>
+                    
                     <Spacer size="medium" />
                 </div>
                 {children}
